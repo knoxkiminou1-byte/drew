@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Drew Center Pharmacy — East Palo Alto</title>
+  <meta name="description" content="Drew Center Pharmacy, East Palo Alto's independent community pharmacy since 1974. Prescriptions, refills, vitamins, medical supplies, free local delivery. Dr. Arthur Lim, Pharm.D." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,700;0,800;1,600;1,700&display=swap" rel="stylesheet" />
+  <script type="text/javascript">
+    function changeLanguage(lang) {
+      var url = 'https://translate.google.com/translate?sl=en&tl=' + lang + '&u=' + encodeURIComponent(window.location.href);
+      window.open(url, '_blank');
+    }
+  </script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ANNOUNCEMENT BAR -->
+  <div class="announce-bar">
+    <div class="announce-inner">
+      <span>Se Habla Español</span>
+      <span class="announce-sep">·</span>
+      <span>Mon–Fri 10AM–5:30PM · Break 1:30–3PM</span>
+      <span class="announce-sep">·</span>
+      <span>(650) 321-1449</span>
+    </div>
+    <div class="translate-widget">
+      <select onchange="changeLanguage(this.value)" class="lang-select" aria-label="Select Language">
+        <option value="" disabled selected>🌐 Language</option>
+        <option value="es">Español</option>
+        <option value="to">Tongan</option>
+        <option value="sm">Samoan</option>
+        <option value="tl">Filipino</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="header-inner">
+      <a href="#" class="logo">
+        <div class="logo-icon">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="24" cy="24" r="23" stroke="#0D1245" stroke-width="2"/>
+            <path d="M24 10C24 10 14 15 14 24C14 30.5 18.5 36 24 38C29.5 36 34 30.5 34 24C34 15 24 10 24 10Z" fill="#0D1245" opacity="0.06"/>
+            <rect x="22" y="13" width="4" height="22" rx="2" fill="#0D1245"/>
+            <rect x="13" y="22" width="22" height="4" rx="2" fill="#F5A000"/>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <span class="logo-name">Drew Center</span>
+          <span class="logo-tag">Pharmacy · Est. 1974</span>
+        </div>
+      </a>
+
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#hours">Hours</a>
+        <a href="#community">Community</a>
+        <a href="#contact-us">Contact Us</a>
+      </nav>
+
+      <div class="header-ctas">
+        <a href="tel:6503211449" class="cta-phone">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+          (650) 321-1449
+        </a>
+        <a href="tel:6503211449" class="cta-refill">Refill Rx</a>
+      </div>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-left">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          East Palo Alto's Community Pharmacy Since 1974
+        </div>
+        <h1 class="hero-title">
+          Help Drew<br>
+          <em>help you.</em>
+        </h1>
+        <p class="hero-desc">Personalized pharmacy care for East Palo Alto. Prescriptions, vitamins, medical supplies, gifts, and so much more.</p>
+
+        <div class="hero-btns">
+          <a href="tel:6503211449" class="btn-gold">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+            Call (650) 321-1449
+          </a>
+          <a href="#services" class="btn-outline">View Services</a>
+        </div>
+
+        <div class="hero-trust">
+          <div class="trust-item">
+            <div class="trust-num">50+</div>
+            <div class="trust-label">Years Serving<br>East Palo Alto</div>
+          </div>
+          <div class="trust-divider"></div>
+          <div class="trust-item">
+            <div class="trust-num">Free</div>
+            <div class="trust-label">Local Delivery<br>Mon, Wed &amp; Fri</div>
+          </div>
+          <div class="trust-divider"></div>
+          <div class="trust-item">
+            <div class="trust-num">Open</div>
+            <div class="trust-label">To the Public<br>No Insurance Req.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="hero-img-wrap">
+          <img src="assets/pharmacy-hero.jpg" alt="Pharmacist at Drew Center Pharmacy" class="hero-img" />
+          <div class="hero-img-overlay"></div>
+        </div>
+        <div class="hero-card">
+          <div class="hero-card-icon">
+            <!-- Animated delivery truck SVG -->
+            <svg class="truck-svg" viewBox="0 0 64 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Delivery truck">
+              <!-- Road dashes -->
+              <g class="road-dash">
+                <rect x="2" y="28" width="8" height="2" rx="1" fill="rgba(255,255,255,0.25)"/>
+                <rect x="14" y="28" width="8" height="2" rx="1" fill="rgba(255,255,255,0.25)"/>
+                <rect x="26" y="28" width="8" height="2" rx="1" fill="rgba(255,255,255,0.25)"/>
+                <rect x="38" y="28" width="8" height="2" rx="1" fill="rgba(255,255,255,0.25)"/>
+                <rect x="50" y="28" width="12" height="2" rx="1" fill="rgba(255,255,255,0.25)"/>
+              </g>
+              <!-- Truck body -->
+              <g class="truck-body">
+                <!-- Cargo box -->
+                <rect x="4" y="10" width="30" height="16" rx="2" fill="white" opacity="0.95"/>
+                <!-- Cab -->
+                <rect x="34" y="14" width="18" height="12" rx="2" fill="white" opacity="0.95"/>
+                <!-- Cab window -->
+                <rect x="37" y="16" width="10" height="7" rx="1.5" fill="#1A2275" opacity="0.7"/>
+                <!-- Cargo stripe -->
+                <rect x="4" y="17" width="30" height="2" fill="#F5A000" opacity="0.6"/>
+                <!-- Headlight -->
+                <rect x="51" y="19" width="3" height="3" rx="1" fill="#FFD566"/>
+                <!-- Wheels -->
+                <circle cx="14" cy="27" r="4" fill="#0D1245"/>
+                <circle cx="14" cy="27" r="2" fill="#888"/>
+                <circle cx="44" cy="27" r="4" fill="#0D1245"/>
+                <circle cx="44" cy="27" r="2" fill="#888"/>
+              </g>
+              <!-- Motion lines -->
+              <g class="motion-lines">
+                <line x1="0" y1="13" x2="5" y2="13" stroke="rgba(255,255,255,0.5)" stroke-width="1.5" stroke-linecap="round"/>
+                <line x1="0" y1="17" x2="3" y2="17" stroke="rgba(255,255,255,0.35)" stroke-width="1" stroke-linecap="round"/>
+                <line x1="0" y1="21" x2="4" y2="21" stroke="rgba(255,255,255,0.25)" stroke-width="1" stroke-linecap="round"/>
+              </g>
+            </svg>
+          </div>
+          <div>
+            <div class="hero-card-title">Free Local Delivery</div>
+            <div class="hero-card-sub">Mon, Wed &amp; Fri · 5-Mile Radius</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RX ACTION STRIP -->
+  <section class="rx-strip">
+    <div class="rx-strip-inner">
+      <a href="tel:6503211449" class="rx-tile rx-tile-red">
+        <div class="rx-tile-icon">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M20.07 4.93a10 10 0 0 0-14.14 0 10 10 0 0 0 0 14.14 10 10 0 0 0 14.14 0 10 10 0 0 0 0-14.14zm-1.41 12.73a8 8 0 0 1-11.32 0 8 8 0 0 1 0-11.32 8 8 0 0 1 11.32 0 8 8 0 0 1 0 11.32zM8.5 13.5h7a.5.5 0 0 0 0-1h-7a.5.5 0 0 0 0 1zm0-3h7a.5.5 0 0 0 0-1h-7a.5.5 0 0 0 0 1zm1.5 6h4a.5.5 0 0 0 0-1h-4a.5.5 0 0 0 0 1z"/></svg>
+        </div>
+        <div class="rx-tile-body">
+          <div class="rx-tile-title">Refill Rx</div>
+          <div class="rx-tile-sub">Call or visit to refill your prescription</div>
+        </div>
+        <svg class="rx-arrow" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/></svg>
+      </a>
+      <a href="tel:6503211449" class="rx-tile rx-tile-green">
+        <div class="rx-tile-icon">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M17.65 6.35C16.2 4.9 14.21 4 12 4c-4.42 0-7.99 3.58-7.99 8s3.57 8 7.99 8c3.73 0 6.84-2.55 7.73-6h-2.08c-.82 2.33-3.04 4-5.65 4-3.31 0-6-2.69-6-6s2.69-6 6-6c1.66 0 3.14.69 4.22 1.78L13 11h7V4l-2.35 2.35z"/></svg>
+        </div>
+        <div class="rx-tile-body">
+          <div class="rx-tile-title">Auto Refills</div>
+          <div class="rx-tile-sub">Automatic prescription refill service</div>
+        </div>
+        <svg class="rx-arrow" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/></svg>
+      </a>
+      <a href="tel:6503211449" class="rx-tile rx-tile-navy">
+        <div class="rx-tile-icon">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M6.99 11L3 15l3.99 4v-3H14v-2H6.99v-3zM21 9l-3.99-4v3H10v2h7.01v3L21 9z"/></svg>
+        </div>
+        <div class="rx-tile-body">
+          <div class="rx-tile-title">Transfer Rx</div>
+          <div class="rx-tile-sub">Move your prescription to Drew Center</div>
+        </div>
+        <svg class="rx-arrow" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- MAIN BODY: sidebar + content -->
+  <div class="body-wrap" id="services">
+    <aside class="sidebar">
+
+      <div class="s-card" id="contact">
+        <div class="s-card-head">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/></svg>
+          Contact Information
+        </div>
+        <div class="s-card-body">
+          <div class="info-row">
+            <div class="info-label">Address</div>
+            <div class="info-val">2242 University Ave<br>East Palo Alto, CA 94303</div>
+          </div>
+          <div class="info-row">
+            <div class="info-label">Phone</div>
+            <a href="tel:6503211449" class="info-val info-link">(650) 321-1449</a>
+          </div>
+          <div class="info-row">
+            <div class="info-label">Fax</div>
+            <div class="info-val">(650) 321-5977</div>
+          </div>
+          <div class="info-row">
+            <div class="info-label">Email</div>
+            <a href="mailto:HOCGWAY@aol.com" class="info-val info-link">HOCGWAY@aol.com</a>
+          </div>
+          <a href="tel:6503211449" class="s-btn">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+            Call Us Now
+          </a>
+        </div>
+      </div>
+
+      <div class="s-card" id="hours">
+        <div class="s-card-head">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm.01 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7z"/></svg>
+          Hours of Operation
+        </div>
+        <div class="s-card-body">
+          <table class="hours-table">
+            <tr class="h-open"><td>Monday</td><td>10:00 AM – 5:30 PM</td></tr>
+            <tr class="h-break"><td colspan="2">Break 1:30 – 3:00 PM</td></tr>
+            <tr class="h-open"><td>Tuesday</td><td>10:00 AM – 5:30 PM</td></tr>
+            <tr class="h-break"><td colspan="2">Break 1:30 – 3:00 PM</td></tr>
+            <tr class="h-open"><td>Wednesday</td><td>10:00 AM – 5:30 PM</td></tr>
+            <tr class="h-break"><td colspan="2">Break 1:30 – 3:00 PM</td></tr>
+            <tr class="h-open"><td>Thursday</td><td>10:00 AM – 5:30 PM</td></tr>
+            <tr class="h-break"><td colspan="2">Break 1:30 – 3:00 PM</td></tr>
+            <tr class="h-open"><td>Friday</td><td>10:00 AM – 5:30 PM</td></tr>
+            <tr class="h-break"><td colspan="2">Break 1:30 – 3:00 PM</td></tr>
+            <tr class="h-closed"><td>Saturday</td><td>Closed</td></tr>
+            <tr class="h-closed"><td>Sunday</td><td>Closed</td></tr>
+          </table>
+        </div>
+      </div>
+
+      <div class="s-card">
+        <div class="s-card-head">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
+          Community Services
+        </div>
+        <div class="s-card-body">
+          <ul class="comm-list">
+            <li>Prescription Medications</li>
+            <li>OTC Medications</li>
+            <li>Photo Print Center</li>
+            <li>Utility Payment Center</li>
+            <li>Gift Shop &amp; Jewelry</li>
+            <li>Color Photo Services</li>
+            <li>Copying Services</li>
+            <li>Special Order Section</li>
+            <li>Free Local Delivery</li>
+          </ul>
+        </div>
+      </div>
+
+    </aside>
+
+    <main class="content">
+
+      <section class="welcome-sec">
+        <div class="sec-label">Welcome</div>
+        <h2 class="sec-h2">Welcome to Drew Center Pharmacy</h2>
+        <p class="sec-sub">Retail Pharmacy In East Palo Alto, California</p>
+        <div class="welcome-text">
+          <p><strong>Drew Center Pharmacy</strong> is a 50-year-old pharmacy that provides professional services to a diverse and underserved minority community in East Palo Alto, California.</p>
+          <p>We offer a wide selection of <strong>prescription medications</strong> as well as non-prescription drugs, vitamins, and nutritional supplements — with access to medical supplies, equipment, and healthcare products. In addition, we have many special gifts, ethnic collectibles, fashion jewelry, and so much more.</p>
+          <p>We also provide <strong>copying services, color photo services, faxing services, and utility payment services</strong>. Our goal is to offer you a hassle-free, quick, and complete shopping experience with the hopes that your visit will fulfill your healthcare and personal needs.</p>
+          <p>Every day, we are inspired to serve your healthcare and personal needs — and we hope you will become our best promoter. <strong>Help Drew help you!</strong></p>
+        </div>
+      </section>
+
+      <div class="delivery-bar">
+        <div class="delivery-bar-left">
+          <div class="delivery-bar-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M20 8h-3V4H3c-1.1 0-2 .9-2 2v11h2c0 1.66 1.34 3 3 3s3-1.34 3-3h6c0 1.66 1.34 3 3 3s3-1.34 3-3h2v-5l-3-4z"/></svg>
+          </div>
+          <div>
+            <div class="delivery-bar-title">FREE Local Delivery</div>
+            <div class="delivery-bar-sub">5-mile radius · Available Monday, Wednesday &amp; Friday · We accept requests to deliver your orders — no more driving!</div>
+          </div>
+        </div>
+        <span class="delivery-tag">FREE</span>
+      </div>
+
+      <section class="services-sec">
+        <div class="sec-label">What We Offer</div>
+        <h2 class="sec-h2">Full-Service Pharmacy &amp; Community Hub</h2>
+        <div class="svc-grid">
+          <div class="svc-card">
+            <div class="svc-icon svc-navy"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M11 9H9V2H7v7H5V2H3v7c0 2.12 1.66 3.84 3.75 3.97V22h2.5v-9.03C11.34 12.84 13 11.12 13 9V2h-2v7zm5-3v8h2.5v8H21V2c-2.76 0-5 2.24-5 4z"/></svg></div>
+            <div class="svc-title">Prescriptions &amp; Refills</div>
+            <div class="svc-desc">Full-service prescription filling, refills, and medication consultations with Dr. Art Lim.</div>
+          </div>
+          <div class="svc-card">
+            <div class="svc-icon svc-gold"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M20 6h-2.18c.07-.44.18-.88.18-1.36 0-2.56-2.35-4.64-4.91-4.64C11.51 0 10 1.3 10 1.3S8.49 0 6.91 0C4.35 0 2 2.08 2 4.64c0 .48.11.92.18 1.36H0v14h20V6zm-8.27-4.19c.36-.2.77-.31 1.18-.31C14.61 1.5 16 2.93 16 4.64c0 .48-.12.93-.32 1.36h-4.53c-.2-.43-.32-.88-.32-1.36.12-1.16.86-2.11.89-2.83zM4 4.64C4 2.93 5.39 1.5 7.09 1.5c.41 0 .82.11 1.18.31.03.72.77 1.67.89 2.83 0 .48-.12.93-.32 1.36H4.32C4.12 5.57 4 5.12 4 4.64zM18 18H2V8h16v10z"/></svg></div>
+            <div class="svc-title">OTC Medications</div>
+            <div class="svc-desc">Non-prescription drugs, vitamins, nutritional supplements, and healthcare products.</div>
+          </div>
+          <div class="svc-card">
+            <div class="svc-icon svc-red"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 3c1.93 0 3.5 1.57 3.5 3.5S13.93 13 12 13s-3.5-1.57-3.5-3.5S10.07 6 12 6zm7 13H5v-.23c0-.62.28-1.2.76-1.58C7.47 15.82 9.64 15 12 15s4.53.82 6.24 2.19c.48.38.76.97.76 1.58V19z"/></svg></div>
+            <div class="svc-title">Medical Supplies</div>
+            <div class="svc-desc">Equipment, medical supplies, and healthcare products for your personal needs.</div>
+          </div>
+          <div class="svc-card">
+            <div class="svc-icon svc-navy"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M11.5 2C6.81 2 3 5.81 3 10.5S6.81 19 11.5 19h.5v3c4.86-2.34 8-7 8-11.5C20 5.81 16.19 2 11.5 2zm1 14.5h-2v-2h2v2zm0-4h-2c0-3.25 3-3 3-5 0-1.1-.9-2-2-2s-2 .9-2 2h-2c0-2.21 1.79-4 4-4s4 1.79 4 4c0 2.5-3 2.75-3 5z"/></svg></div>
+            <div class="svc-title">Vitamins &amp; Supplements</div>
+            <div class="svc-desc">Wide selection of vitamins, nutritional supplements, and wellness products.</div>
+          </div>
+          <div class="svc-card">
+            <div class="svc-icon svc-gold"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M20 6h-2.18c.07-.44.18-.88.18-1.36 0-2.56-2.35-4.64-4.91-4.64C11.51 0 10 1.3 10 1.3S8.49 0 6.91 0C4.35 0 2 2.08 2 4.64c0 .48.11.92.18 1.36H0v14h20V6z"/></svg></div>
+            <div class="svc-title">Gifts &amp; Jewelry</div>
+            <div class="svc-desc">Special gifts, ethnic collectibles, fashion jewelry, and unique community items.</div>
+          </div>
+          <div class="svc-card">
+            <div class="svc-icon svc-red"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M17 12h-5v5h5v-5zM16 1v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-1V1h-2zm3 18H5V8h14v11z"/></svg></div>
+            <div class="svc-title">Copy, Fax &amp; Photo</div>
+            <div class="svc-desc">Color photo printing, copying services, faxing, and special order processing.</div>
+          </div>
+          <div class="svc-card">
+            <div class="svc-icon svc-navy"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M11.8 10.9c-2.27-.59-3-1.2-3-2.15 0-1.09 1.01-1.85 2.7-1.85 1.78 0 2.44.85 2.5 2.1h2.21c-.07-1.72-1.12-3.3-3.21-3.81V3h-3v2.16c-1.94.42-3.5 1.68-3.5 3.61 0 2.31 1.91 3.46 4.7 4.13 2.5.6 3 1.48 3 2.41 0 .69-.49 1.79-2.7 1.79-2.06 0-2.87-.92-2.98-2.1h-2.2c.12 2.19 1.76 3.42 3.68 3.83V21h3v-2.15c1.95-.37 3.5-1.5 3.5-3.55 0-2.84-2.43-3.81-4.7-4.4z"/></svg></div>
+            <div class="svc-title">Utility Payments</div>
+            <div class="svc-desc">Convenient in-store utility bill payment center for the community.</div>
+          </div>
+          <div class="svc-card">
+            <div class="svc-icon svc-green"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M20 8h-3V4H3c-1.1 0-2 .9-2 2v11h2c0 1.66 1.34 3 3 3s3-1.34 3-3h6c0 1.66 1.34 3 3 3s3-1.34 3-3h2v-5l-3-4z"/></svg></div>
+            <div class="svc-title">Free Local Delivery</div>
+            <div class="svc-desc">Free delivery Mon, Wed &amp; Fri within a 5-mile radius. No driving needed.</div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- ABOUT DR. ART -->
+  <section class="about-sec" id="about">
+    <div class="about-inner">
+      <div class="about-img-col">
+        <div class="about-img-frame">
+          <img src="assets/pharmacy-about.jpg" alt="Drew Center Pharmacy interior" class="about-img" />
+        </div>
+        <div class="about-nameplate">
+          <div class="about-nameplate-name">Arthur Lim, Pharm.D.</div>
+          <div class="about-nameplate-title">Director-Owner, Drew Center Pharmacy</div>
+        </div>
+      </div>
+      <div class="about-copy">
+        <div class="sec-label sec-label-light">Our Story</div>
+        <h2 class="about-h2">50 Years Serving<br><span class="gold-text">East Palo Alto</span></h2>
+        <p>Drew Center Pharmacy was founded in 1974 as part of the Charles R. Drew Medical Center — named for the pioneering physician who made modern blood transfusion possible. That legacy of dedicated community service set the standard from day one.</p>
+        <p>In 1983, <strong>Dr. Arthur H. Lim, Pharm.D.</strong> took independent ownership, bringing over 40 years of personal expertise and community trust to every prescription filled and every question answered.</p>
+        <p>Today, Drew Center remains one of the last independent community pharmacies in the area — a trusted neighbor, healthcare partner, and community institution.</p>
+        <div class="about-stats">
+          <div class="about-stat"><div class="astat-n">1974</div><div class="astat-l">Year Founded</div></div>
+          <div class="about-stat"><div class="astat-n">40+</div><div class="astat-l">Years Under Dr. Art</div></div>
+          <div class="about-stat"><div class="astat-n">5mi</div><div class="astat-l">Free Delivery Radius</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PODCAST -->
+  <section class="podcast-sec" id="community">
+    <div class="podcast-inner">
+      <div class="podcast-copy">
+        <div class="sec-label">Media &amp; Community</div>
+        <h2 class="sec-h2 podcast-title"><em>Ask a Pharmacist</em></h2>
+        <p class="podcast-desc">Dr. Arthur H. Lim has spent over 40 years answering the questions that matter most — about medications, community health, and East Palo Alto. The <em>Ask a Pharmacist</em> series brings his expertise to a wider audience.</p>
+        <p class="podcast-credit">Produced in collaboration with Artists &amp; Athletes for Change via Linea.</p>
+      </div>
+      <div class="podcast-list">
+        <div class="ep-card">
+          <div class="ep-play"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div>
+          <div><div class="ep-title">Understanding Your Medication Labels</div><div class="ep-meta">Ask a Pharmacist · Episode 1</div></div>
+        </div>
+        <div class="ep-card">
+          <div class="ep-play"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div>
+          <div><div class="ep-title">Community Health in East Palo Alto</div><div class="ep-meta">Ask a Pharmacist · Episode 2</div></div>
+        </div>
+        <div class="ep-card">
+          <div class="ep-play"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div>
+          <div><div class="ep-title">When to Talk to Your Pharmacist</div><div class="ep-meta">Ask a Pharmacist · Episode 3</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="contact-sec" id="contact-us">
+    <div class="contact-inner">
+
+      <!-- Left: Contact Info Panel -->
+      <div class="contact-info-panel">
+        <div class="contact-info-logo">
+          <div class="logo-icon"></div>
+          <div>
+            <div class="contact-brand-name">Drew Center Pharmacy</div>
+            <div class="contact-brand-tag">HELP DREW HELP YOU!</div>
+          </div>
+        </div>
+        <div class="contact-info-rows">
+          <div class="cinfo-row">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+            <div>
+              <div class="cinfo-label">Address</div>
+              <div class="cinfo-val">2242 University Avenue<br>East Palo Alto, California 94303</div>
+            </div>
+          </div>
+          <div class="cinfo-row">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+            <div>
+              <div class="cinfo-label">Phone</div>
+              <a href="tel:6503211449" class="cinfo-val cinfo-link">(650) 321-1449</a>
+            </div>
+          </div>
+          <div class="cinfo-row">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 4l-7 4.5L5 7V5l7 4.5L19 5v2z"/></svg>
+            <div>
+              <div class="cinfo-label">Email</div>
+              <a href="mailto:HOCGWAY@aol.com" class="cinfo-val cinfo-link">HOCGWAY@aol.com</a>
+            </div>
+          </div>
+          <div class="cinfo-row">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 3c1.93 0 3.5 1.57 3.5 3.5S13.93 13 12 13s-3.5-1.57-3.5-3.5S10.07 6 12 6zm7 13H5v-.23c0-.62.28-1.2.76-1.58C7.47 15.82 9.64 15 12 15s4.53.82 6.24 2.19c.48.38.76.97.76 1.58V19z"/></svg>
+            <div>
+              <div class="cinfo-label">Contact Person</div>
+              <div class="cinfo-val">Arthur Lim, Pharm D.<br>Director-Owner</div>
+            </div>
+          </div>
+          <div class="cinfo-row">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm.01 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7z"/></svg>
+            <div>
+              <div class="cinfo-label">Hours of Operation</div>
+              <div class="cinfo-val">Monday to Friday<br>10:00 AM – 5:30 PM<br><span class="cinfo-break">Break from 1:30 PM to 3:00 PM</span></div>
+            </div>
+          </div>
+          <div class="cinfo-row">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/></svg>
+            <div>
+              <div class="cinfo-label">Access</div>
+              <div class="cinfo-val">OPEN TO THE PUBLIC!</div>
+            </div>
+          </div>
+        </div>
+        <div class="cinfo-services">
+          <div class="cinfo-svc-item">Public Fax Center</div>
+          <div class="cinfo-svc-item">Utility Payment Center</div>
+          <div class="cinfo-svc-item">Gift Shop and Jewelry</div>
+        </div>
+      </div>
+
+      <!-- Right: Contact Form -->
+      <div class="contact-form-panel">
+        <div class="contact-form-header">
+          <h2 class="contact-form-title">Contact Us</h2>
+          <p class="contact-form-sub">Medical Equipment In East Palo Alto, California</p>
+          <p class="contact-form-intro">We hope to hear from you soon. Please get in touch with us.</p>
+          <p class="contact-form-req"><span class="req-star">*</span> = Required Information</p>
+        </div>
+
+        <form class="contact-form" id="contactForm" onsubmit="handleContactSubmit(event)" novalidate>
+
+          <div class="cf-group">
+            <label class="cf-label" for="cf-name">Name <span class="req-star">*</span></label>
+            <input class="cf-input" type="text" id="cf-name" name="name" placeholder="Your full name" required>
+          </div>
+
+          <div class="cf-group">
+            <label class="cf-label" for="cf-address">Address <span class="req-star">*</span></label>
+            <input class="cf-input" type="text" id="cf-address" name="address" placeholder="Your street address" required>
+          </div>
+
+          <div class="cf-row">
+            <div class="cf-group">
+              <label class="cf-label" for="cf-email">Email <span class="req-star">*</span></label>
+              <input class="cf-input" type="email" id="cf-email" name="email" placeholder="your@email.com" required>
+            </div>
+            <div class="cf-group">
+              <label class="cf-label" for="cf-phone">Phone <span class="req-star">*</span></label>
+              <input class="cf-input" type="tel" id="cf-phone" name="phone" placeholder="(555) 555-5555" required>
+            </div>
+          </div>
+
+          <div class="cf-group">
+            <label class="cf-label" for="cf-message">Question / Comment</label>
+            <textarea class="cf-textarea" id="cf-message" name="message" rows="5" placeholder="How can we help you?"></textarea>
+          </div>
+
+          <div class="cf-consent">
+            <label class="cf-consent-label">
+              <input type="checkbox" id="cf-consent" name="consent" required>
+              <span>I consent to the collection, use, storage, and processing of my personal and, where applicable, health information in accordance with Drew Center Pharmacy's <a href="https://www.drewcenterpharmacy.com/privacy-notice" target="_blank" rel="noopener">Privacy Notice</a>.</span>
+            </label>
+          </div>
+
+          <div id="cf-success" class="cf-success" style="display:none;">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+            Thank you! We&rsquo;ll be in touch soon.
+          </div>
+
+          <button type="submit" class="cf-submit">
+            Send
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>
+          </button>
+
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="#" class="logo footer-logo">
+          <div class="logo-icon logo-icon-light">
+            <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="23" stroke="#F5A000" stroke-width="2"/><rect x="22" y="13" width="4" height="22" rx="2" fill="white"/><rect x="13" y="22" width="22" height="4" rx="2" fill="#F5A000"/></svg>
+          </div>
+          <div class="logo-text">
+            <span class="logo-name logo-name-light">Drew Center</span>
+            <span class="logo-tag logo-tag-light">Pharmacy · Est. 1974</span>
+          </div>
+        </a>
+        <p class="footer-desc">East Palo Alto's independent community pharmacy since 1974. Prescriptions, vitamins, medical supplies, gifts, and personalized care guided by Dr. Arthur H. Lim, Pharm.D.</p>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">Our Services</div>
+        <ul class="footer-links">
+          <li><a href="#services">Prescriptions &amp; Refills</a></li>
+          <li><a href="#services">OTC Medications</a></li>
+          <li><a href="#services">Medical Supplies</a></li>
+          <li><a href="#services">Vitamins &amp; Supplements</a></li>
+          <li><a href="#services">Gifts &amp; Jewelry</a></li>
+          <li><a href="#services">Copy, Fax &amp; Photo</a></li>
+          <li><a href="#services">Utility Payments</a></li>
+          <li><a href="#services">Free Local Delivery</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">Visit Us</div>
+        <div class="footer-info">
+          <p>2242 University Avenue<br>East Palo Alto, CA 94303</p>
+          <p>Phone: <a href="tel:6503211449">(650) 321-1449</a></p>
+          <p>Fax: (650) 321-5977</p>
+          <p>Email: <a href="mailto:HOCGWAY@aol.com">HOCGWAY@aol.com</a></p>
+          <p>Mon–Fri: 10:00 AM – 5:30 PM<br><small>(Break 1:30–3:00 PM)</small></p>
+          <p>Saturday–Sunday: Closed</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2024 Drew Center Pharmacy · Arthur Lim, Pharm.D., Director-Owner · Open to the Public</span>
+      <div class="footer-legal"><a href="#">Privacy Notice</a><a href="#">Do Not Sell My Info</a></div>
+    </div>
+  </footer>
+
+  <script>
+    // Sticky header
+    const header = document.getElementById('header');
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('scrolled', window.scrollY > 50);
+    });
+    // Mobile nav
+    document.getElementById('navToggle')?.addEventListener('click', () => {
+      document.querySelector('.nav').classList.toggle('open');
+    });
+    // Scroll animations
+    const io = new IntersectionObserver(entries => {
+      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('in'); });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.svc-card, .s-card, .ep-card, .about-stat, .rx-tile').forEach(el => io.observe(el));
+    // Contact form handler
+    window.handleContactSubmit = function(e) {
+      e.preventDefault();
+      const form = e.target;
+      const name    = form.querySelector('#cf-name').value.trim();
+      const address = form.querySelector('#cf-address').value.trim();
+      const email   = form.querySelector('#cf-email').value.trim();
+      const phone   = form.querySelector('#cf-phone').value.trim();
+      const consent = form.querySelector('#cf-consent').checked;
+      if (!name || !address || !email || !phone) {
+        alert('Please fill in all required fields.');
+        return;
+      }
+      if (!consent) {
+        alert('Please check the consent box to continue.');
+        return;
+      }
+      // Show success
+      form.querySelectorAll('.cf-group, .cf-row, .cf-consent').forEach(el => el.style.display = 'none');
+      form.querySelector('#cf-success').style.display = 'flex';
+      form.querySelector('.cf-submit').style.display = 'none';
+    };
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        const t = document.querySelector(a.getAttribute('href'));
+        if (t) { e.preventDefault(); t.scrollIntoView({ behavior: 'smooth' }); }
+      });
+    });
+  </script>
+<script data-pplx-inline-edit>
+(function () {
+  if (window === window.top) return;
+
+  const allowedParentOrigins = ["https://www.perplexity.ai","https://perplexity.ai","https://testing.perplexity.ai","https://staging.perplexity.ai","https://*.preview.i.perplexity.ai","http://localhost:3000","http://127.0.0.1:3000","http://localhost:5173","http://127.0.0.1:5173"];
+  const MAX_FONT_BYTES = 500 * 1024;
+  const MAX_TOTAL_FONT_BYTES = 2 * 1024 * 1024;
+  let scrollForwarding = false;
+  let scrollRaf = 0;
+  let trustedTopOrigin = null;
+
+  // Allow entries like "https://*.preview.i.perplexity.ai" — the wildcard
+  // matches a single DNS label (no dots), so "https://*.foo" cannot stretch
+  // across multiple labels.
+  function matchesAllowedOrigin(origin) {
+    if (!origin) return false;
+    for (const entry of allowedParentOrigins) {
+      if (!entry.includes("*")) {
+        if (entry === origin) return true;
+        continue;
+      }
+      const pattern = new RegExp(
+        "^" +
+          entry.replace(/[.+?^${}()|[\]\\]/g, "\\$&").replace(/\*/g, "[^.]+") +
+          "$",
+      );
+      if (pattern.test(origin)) return true;
+    }
+    return false;
+  }
+
+  // Trust decision: when the sender is same-origin-visible (event.origin is a
+  // real origin like https://www.perplexity.ai) we trust event.origin directly.
+  // When event.origin is "null" (opaque broker srcdoc), we fall back to the
+  // broker's stamped `parentOrigin` to identify the top window. The fallback
+  // is claim-only — we rely on the browser's native `targetOrigin` enforcement
+  // on the response path (see postToTrustedTop) to ensure replies can't be
+  // delivered to anyone but the actual top window of that claimed origin.
+  function getTrustedParentOrigin(event) {
+    const forwardedParentOrigin =
+      typeof event.data.parentOrigin === "string" ? event.data.parentOrigin : null;
+    const parentOrigin = event.origin === "null" ? forwardedParentOrigin : event.origin;
+    return matchesAllowedOrigin(parentOrigin) ? parentOrigin : null;
+  }
+
+  // All responses go to window.top with targetOrigin = the allowlisted origin.
+  // An attacker that iframes us inside their own null-origin broker can claim
+  // any parentOrigin they like, but the browser will drop the reply whenever
+  // the real top's origin doesn't match — so the screenshot never leaves.
+  function postToTrustedTop(message) {
+    if (!trustedTopOrigin) return;
+    try {
+      window.top.postMessage(message, trustedTopOrigin);
+    } catch (_error) {}
+  }
+
+  function inlineAll(original, clone) {
+    if (original.nodeType !== 1 || clone.nodeType !== 1) return;
+
+    try {
+      const computedStyle = getComputedStyle(original);
+      // cssText on a computed style is the serialized declaration in modern
+      // Chromium/Safari — a single read beats enumerating ~400 longhand
+      // properties. Firefox returns "" here, so we fall back on empty.
+      const serialized = computedStyle.cssText;
+      if (serialized) {
+        clone.style.cssText = serialized;
+      } else {
+        const parts = new Array(computedStyle.length);
+        for (let index = 0; index < computedStyle.length; index += 1) {
+          const property = computedStyle[index];
+          parts[index] = `${property}:${computedStyle.getPropertyValue(property)};`;
+        }
+        clone.style.cssText = parts.join("");
+      }
+    } catch (_error) {}
+
+    const originalChildren = original.children;
+    const clonedChildren = clone.children;
+    for (
+      let index = 0;
+      index < originalChildren.length && index < clonedChildren.length;
+      index += 1
+    ) {
+      inlineAll(originalChildren[index], clonedChildren[index]);
+    }
+  }
+
+  function extractFontUrl(srcValue) {
+    const matches = [
+      ...srcValue.matchAll(
+        /url\(["']?([^"')]+)["']?\)(?:\s*format\(["']?([^"')]+)["']?\))?/gi,
+      ),
+    ];
+    if (matches.length === 0) return null;
+    const woff2 = matches.find((m) => m[2] && m[2].toLowerCase().includes("woff2"));
+    if (woff2) return woff2[1];
+    const woff = matches.find((m) => m[2] && m[2].toLowerCase().includes("woff"));
+    if (woff) return woff[1];
+    return matches[0][1];
+  }
+
+  // Cache resolved font URL -> data URI across captures. Fonts on a page
+  // essentially never change, and a batch run emits multiple captures back to
+  // back — without this we'd refetch + re-base64 every time.
+  const fontDataUriCache = new Map();
+  const SRC_DECLARATION_RE = /src\s*:\s*[^;}]+/i;
+
+  async function fetchAsDataUri(url) {
+    if (fontDataUriCache.has(url)) return fontDataUriCache.get(url);
+    let dataUri = null;
+    try {
+      const response = await fetch(url, { mode: "cors", credentials: "omit" });
+      if (response.ok) {
+        const blob = await response.blob();
+        if (blob.size <= MAX_FONT_BYTES) {
+          dataUri = await new Promise((resolve) => {
+            const reader = new FileReader();
+            reader.onloadend = () =>
+              resolve(typeof reader.result === "string" ? reader.result : null);
+            reader.onerror = () => resolve(null);
+            reader.readAsDataURL(blob);
+          });
+        }
+      }
+    } catch (_error) {
+      dataUri = null;
+    }
+    fontDataUriCache.set(url, dataUri);
+    return dataUri;
+  }
+
+  function collectFontFaceRuleTexts() {
+    const rules = [];
+    for (const sheet of document.styleSheets) {
+      let cssRules;
+      try {
+        cssRules = sheet.cssRules;
+      } catch (_error) {
+        continue;
+      }
+      if (!cssRules) continue;
+      for (const rule of cssRules) {
+        const cssText = rule.cssText || "";
+        if (cssText.startsWith("@font-face")) rules.push(cssText);
+      }
+    }
+    return rules;
+  }
+
+  async function buildInlinedFontCss() {
+    const ruleTexts = collectFontFaceRuleTexts();
+    if (ruleTexts.length === 0) return null;
+
+    const resolved = ruleTexts.map((cssText) => {
+      if (!SRC_DECLARATION_RE.test(cssText)) return null;
+      const srcMatch = cssText.match(/src\s*:\s*([^;}]+)[;}]/i);
+      if (!srcMatch) return null;
+      const url = extractFontUrl(srcMatch[1]);
+      if (!url) return null;
+      try {
+        return { cssText, url: new URL(url, document.baseURI).href };
+      } catch (_error) {
+        return null;
+      }
+    });
+
+    const dataUris = await Promise.all(
+      resolved.map((entry) => (entry ? fetchAsDataUri(entry.url) : Promise.resolve(null))),
+    );
+
+    const inlined = [];
+    let totalBytes = 0;
+    for (let index = 0; index < resolved.length; index += 1) {
+      const entry = resolved[index];
+      const dataUri = dataUris[index];
+      if (!entry || !dataUri) continue;
+      const approxBytes = dataUri.length * 0.75;
+      if (totalBytes + approxBytes > MAX_TOTAL_FONT_BYTES) break;
+      totalBytes += approxBytes;
+      inlined.push(entry.cssText.replace(SRC_DECLARATION_RE, `src: url("${dataUri}")`));
+    }
+    return inlined.length > 0 ? inlined.join("\n") : null;
+  }
+
+  function stripExternal(clone) {
+    const images = clone.querySelectorAll("img");
+    for (let index = 0; index < images.length; index += 1) {
+      const src = images[index].getAttribute("src");
+      if (src && !src.startsWith("data:")) images[index].removeAttribute("src");
+    }
+
+    const elements = clone.querySelectorAll("*");
+    for (let index = 0; index < elements.length; index += 1) {
+      const style = elements[index].style.cssText;
+      if (style && style.includes("url(")) {
+        elements[index].style.cssText = style.replace(
+          /url\(["']?(?!data:)[^)"']*["']?\)/gi,
+          "none",
+        );
+      }
+    }
+  }
+
+  function emitScroll() {
+    scrollRaf = 0;
+    if (!scrollForwarding) return;
+    postToTrustedTop({
+      type: "INLINE_EDIT_SCROLL",
+      scrollX: window.scrollX,
+      scrollY: window.scrollY,
+    });
+  }
+
+  window.addEventListener(
+    "scroll",
+    function () {
+      if (!scrollForwarding || scrollRaf) return;
+      scrollRaf = requestAnimationFrame(emitScroll);
+    },
+    { passive: true, capture: true },
+  );
+
+  async function handleCaptureRequest(event) {
+    const requestId = event.data.requestId;
+    const scrollX = window.scrollX;
+    const scrollY = window.scrollY;
+    const width = window.innerWidth;
+    const height = window.innerHeight;
+
+    function postResult(dataUrl) {
+      postToTrustedTop({
+        type: "INLINE_EDIT_SCREENSHOT_RESULT",
+        requestId,
+        dataUrl,
+        scrollX,
+        scrollY,
+      });
+    }
+
+    try {
+      // Wait for any pending web fonts to resolve so both inline metrics and
+      // the @font-face inlining below see the same loaded faces.
+      if (document.fonts && document.fonts.ready) {
+        try {
+          await document.fonts.ready;
+        } catch (_error) {}
+      }
+
+      const clone = document.documentElement.cloneNode(true);
+      inlineAll(document.documentElement, clone);
+
+      const removedNodes = clone.querySelectorAll("script,link[rel=\"stylesheet\"],style");
+      for (let index = 0; index < removedNodes.length; index += 1) {
+        removedNodes[index].remove();
+      }
+
+      stripExternal(clone);
+
+      // Re-embed web fonts as data-URI @font-face rules so the SVG rasterizer
+      // can resolve them — external font URLs aren't fetched during
+      // foreignObject rendering, which would otherwise force a fallback face
+      // and change text metrics.
+      const inlinedFontCss = await buildInlinedFontCss();
+      if (inlinedFontCss) {
+        const styleEl = document.createElement("style");
+        styleEl.textContent = inlinedFontCss;
+        const head = clone.querySelector("head");
+        if (head) head.appendChild(styleEl);
+        else clone.insertBefore(styleEl, clone.firstChild);
+      }
+
+      const html = new XMLSerializer().serializeToString(clone);
+      const svg =
+        `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}">` +
+        '<foreignObject width="100%" height="100%">' +
+        `<div xmlns="http://www.w3.org/1999/xhtml" style="width:${width}px;height:${height}px;overflow:hidden">` +
+        `<div style="position:relative;left:-${scrollX}px;top:-${scrollY}px">` +
+        html +
+        "</div></div></foreignObject></svg>";
+      const svgUrl = `data:image/svg+xml;charset=utf-8,${encodeURIComponent(svg)}`;
+      const image = new Image();
+      image.onload = function () {
+        const canvas = document.createElement("canvas");
+        canvas.width = width;
+        canvas.height = height;
+        canvas.getContext("2d").drawImage(image, 0, 0);
+        postResult(canvas.toDataURL("image/png"));
+      };
+      image.onerror = function () {
+        postResult(null);
+      };
+      image.src = svgUrl;
+    } catch (_error) {
+      postResult(null);
+    }
+  }
+
+  window.addEventListener("message", function (event) {
+    if (!event.data) return;
+    // Only accept messages from the direct parent frame. Blocks sibling /
+    // unrelated-window postMessage senders that could otherwise reach us.
+    if (event.source !== window.parent) return;
+
+    const trustedParentOrigin = getTrustedParentOrigin(event);
+    if (!trustedParentOrigin) return;
+    trustedTopOrigin = trustedParentOrigin;
+
+    if (event.data.type === "INLINE_EDIT_SCROLL_START") {
+      scrollForwarding = true;
+      emitScroll();
+      return;
+    }
+
+    if (event.data.type === "INLINE_EDIT_SCROLL_STOP") {
+      scrollForwarding = false;
+      if (scrollRaf) cancelAnimationFrame(scrollRaf);
+      scrollRaf = 0;
+      return;
+    }
+
+    if (event.data.type !== "INLINE_EDIT_CAPTURE_REQUEST") return;
+
+    handleCaptureRequest(event);
+  });
+})();
+
+
+</script></body>
+</html>
